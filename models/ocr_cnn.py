@@ -37,7 +37,6 @@ from tensorflow.keras.callbacks import (
 def directory_to_df(path : str):
 
     df = []
-    #chars = "abcdefghijklmnopqrstuvwxyz"    # to include lowercase letters only
 
     chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"    # to include lowercase letters only
     for cls in os.listdir(path):
